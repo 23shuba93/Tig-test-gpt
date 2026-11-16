@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101b24"><meta name="description" content="Офлайн-тренажёр по сварке: 800 вопросов, тесты по 20, объяснения и сохранение прогресса."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Сварка · Практикум</title><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icons/apple-touch-icon.png"><link rel="icon" href="./icons/icon-192.png"><link rel="stylesheet" href="./style.css"></head>
+<body><header class="top"><a href="#home" class="brand" aria-label="Сварка Практикум — главная"><span class="brand-icon">W<span>•</span></span><span>СВАРКА<small>ПРАКТИКУМ</small></span></a><span id="offline" class="status" role="status">Подготовка офлайн</span></header>
+<div id="notice" role="alert" hidden></div><div id="update" class="update" hidden>Доступна новая версия. Прогресс сохранится. <button id="apply-update">Обновить приложение</button></div>
+<main id="main" tabindex="-1"></main>
+<nav class="bottom" aria-label="Разделы"><a href="#home" data-nav="home"><span>◈</span>Практика</a><a href="#progress" data-nav="progress"><span>▤</span>Прогресс</a><a href="#guide" data-nav="guide"><span>⊕</span>Установка</a><a href="#sources" data-nav="sources"><span>≡</span>О базе</a></nav>
+<dialog id="dialog"><form method="dialog"><h2 id="dialog-title"></h2><p id="dialog-text"></p><div class="actions"><button value="cancel" class="secondary">Отмена</button><button value="ok" id="dialog-ok">Продолжить</button></div></form></dialog>
+<noscript>Для работы тренажёра включите JavaScript. После первой загрузки приложение работает без сети.</noscript>
+<script src="./questions.js"></script><script src="./engine.js"></script><script src="./app.js"></script></body></html>
